@@ -2,18 +2,21 @@
 .container::before
 {
 	content:"Before Element";
-	/* display:inline; */
 	background-color:#f00;
 	margin:20px;
+	left:0;
+	top:0;
+	z-index:1;
 }
 .container::after
 {
 	content:"After Element";
-	background-color: #f00;
+	background-color:#f00;
 	margin:20px;
+	left:0;
+	top:0;
+	z-index:1;
 }
-
-
 
 
 
