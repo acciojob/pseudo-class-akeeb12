@@ -7,23 +7,16 @@
 
 .container::before {
     content: "Before Element";
-    position: absolute;
-    left: 0;
-    top: 0;
     background-color: #f00;
     color: black;
     font-weight: 20px;
-    z-index: 1;
 	font-family:Arial;
 }
 .container::after {
     content: "After Element";
-    left: 0;
-    top: 0;
     background-color: #f00;
     color: black;
     font-weight: 20px;
-    z-index: 1;
 	font-family:Arial;
 }
 
